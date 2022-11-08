@@ -40,7 +40,7 @@ int main()
 
     }
 
-    cout<<"Array After Insetion : ";
+    cout<<"Array After Insertion : ";
     printArray(arr,sz+1);///function calling
     return 0;
 }
