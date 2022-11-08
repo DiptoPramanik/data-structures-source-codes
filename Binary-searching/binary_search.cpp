@@ -19,6 +19,7 @@ int binary_searching(int arr[],int checkValue,int lowerBound,int upperBound)
         {
             binary_searching(arr,checkValue,mid+1,upperBound);///right side
         }
+        ///arr[mid]>checkValue
         else
         {
             binary_searching(arr,checkValue,lowerBound,mid-1);///left side
