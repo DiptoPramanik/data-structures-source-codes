@@ -1,6 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+///time complexity O(n),here n= array size
+
 int main()
 {
     int sz;

@@ -1,6 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+///time complexity O(logn),here n=array size
+
 int binary_searching(int arr[],int checkValue,int lowerBound,int upperBound)
 {
     if(lowerBound<=upperBound)
