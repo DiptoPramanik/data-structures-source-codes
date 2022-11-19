@@ -49,4 +49,5 @@ int main()
     printArray(arr,n);
     cout<<endl;
 
+    return 0;
 }
