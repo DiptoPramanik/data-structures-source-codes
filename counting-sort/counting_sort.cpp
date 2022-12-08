@@ -62,7 +62,7 @@ int main()
     int result[n];
     for(int i=n-1;i>=0;i--)
     {
-        cnt[arr[i]]--;
+        cnt[arr[i]]--;///cnt[arr[i]]=cnt[arr[i]]-1;
         int k = cnt[arr[i]];
         result[k]=arr[i];
     }
